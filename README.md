@@ -2,7 +2,7 @@
 
 ### RQ1, Replication: how repetitive and predictable is software? 
 
-1. [List of projects]() 
+1. [List of projects](https://docs.google.com/spreadsheets/d/1J3Jtkvy1FywPZVc2Nv5zWf1eoqnQ6r9-4fA4Eqml_yw/edit?usp=sharing) 
 2. [Frequency distribution]() for each language, n-gram with n = 1 to 10
 3. [Code]() to calculate cross-entropy
 
