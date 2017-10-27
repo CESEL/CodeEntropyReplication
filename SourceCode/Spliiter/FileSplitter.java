@@ -9,7 +9,7 @@ public class FileSplitter{
 
 	public static void main(String args[]) {
 		String folder = "/home/musfiqur/Documents/Research/Project_CodeEntropy/Tool_MITLM/Splitter/Data";
-		String file = "report.txt";
+		String file = "data.txt";
 		File SOFile = new File(folder + "/" + file);
 		FileSplitter splitter = new FileSplitter();
 
