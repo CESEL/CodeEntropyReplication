@@ -11,8 +11,7 @@
   Before running the script make sure [MITLM](https://code.google.com/archive/p/mitlm/) is properly installed. 
   
   Follow these steps:
-  git clone 
-  https://github.com/orezpraw/MIT-Language-Modeling-Toolkit.git mitlm 
+  git clone https://github.com/orezpraw/MIT-Language-Modeling-Toolkit.git mitlm 
   cd mitlm 
   sudo ./autogen.sh 
   sudo make 
