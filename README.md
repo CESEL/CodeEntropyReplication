@@ -4,20 +4,20 @@
 
 1. [List of projects](https://docs.google.com/spreadsheets/d/1J3Jtkvy1FywPZVc2Nv5zWf1eoqnQ6r9-4fA4Eqml_yw/edit?usp=sharing) 
 2. [Frequency distribution]() for each language, n-gram with n = 1 to 10
-3. [Code]() to calculate cross-entropy
+3. [Code](https://github.com/CESEL/CodeEntropyReplication/tree/master/SourceCode/MeasureCrossEntropy) to calculate cross-entropy
 
 ### RQ2, Artificial Repetition: how repetitive and predictable is code once we remove language specific tokens?
 
 1. [Frequency distribution]() for each language without separators, operators, keywords, all language specific 
 2. [List]() of separators, operators, keywords for each language.
-3. [Code]() to calculate entropy
+3. [Code](https://github.com/CESEL/CodeEntropyReplication/tree/master/SourceCode/MeasureEntropy) to calculate entropy
 
 
 ### RQ3, API Usages: how repetitive and predictable are calls to the Java API?
 
 1. [Frequency distribution]() for each language with only Java API elements, n-grams with n = 1 to 10
 2. [List]() of Java API elements considered
-3. [Code]() to calculate entropy
+3. [Code](https://github.com/CESEL/CodeEntropyReplication/tree/master/SourceCode/MeasureEntropy) to calculate entropy
 
 ### RQ4, Code Graphs: how repetitive and predictable are graph representations of Java code? 
 
