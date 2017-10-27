@@ -4,12 +4,12 @@ import java.util.Random;
 public class FileSplitter{
 
 	int postPerFile;
-	int[] postCount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	int[] postCount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 	String ext = ".dat";
 
 	public static void main(String args[]) {
-		String folder = "data";
-		String file = args[0];//"test.data";
+		String folder = "/home/musfiqur/Documents/Research/Project_CodeEntropy/Tool_MITLM/Splitter/Data";
+		String file = "report.txt";
 		File SOFile = new File(folder + "/" + file);
 		FileSplitter splitter = new FileSplitter();
 
@@ -55,7 +55,8 @@ public class FileSplitter{
 
 	private void writePostToFile(String post) throws IOException {
 		int file = selectFileToWritePost();
-		String folder = "splitted_files";//"test_spfiles";//
+		String folder = "/home/musfiqur/Documents/Research/Project_CodeEntropy/Tool_MITLM/Splitter/splitted_files";//"test_spfiles";//
+		
 		File Splitted = new File(folder + "/" + file + ext);
 		BufferedWriter out = null;
 		try {
