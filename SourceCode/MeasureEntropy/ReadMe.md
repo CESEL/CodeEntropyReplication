@@ -11,9 +11,25 @@ python EntropyOfDistribution.py ngrams
 
 will generate the Shannon Entropy for each data file.
 
-Data file should be formatted like this:
+Data file should be formatted as one of the following formats:
+
+- Format 1: Keep the n-grams and their corresponding counts and relative frequencies. We keep first column for the manual observation and it is not requered for calculation of Shannon Entropy.
 
 | 3-grams   | Count | Relative Frequency |
 | ------------- | ------------- | ------------- |
 | a,b,c  | 1236  | 86
 | b,c,d  | 135  | 7
+
+- Format 2: Remove the first column and keep the same order for Count and Relative Frequencey.
+
+| Count | Relative Frequency |
+| ------------- | ------------- |
+| 1236  | 86
+| 135  | 7
+
+- Format 3: Just keep the Count column. The script will calculate the relative frequencies.
+
+| Relative Frequency |
+| ------------- |
+| 86
+| 7
