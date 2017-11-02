@@ -16,7 +16,7 @@
 ### RQ3, API Usages: how repetitive and predictable are calls to the Java API?
 
 1. [Frequency distribution](https://www.dropbox.com/sh/yx6ewwwh8ajjbd8/AAA-q-SpbbYTx4aOSTpA3dRBa?dl=0) for each language with only Java API elements, n-grams with n = 1 to 10
-2. [List]() of Java API elements considered
+2. [List](https://docs.google.com/spreadsheets/d/1CBeAgu95LNqovUkeVwB1rxFQZ3TnjHqdJCgyi1bcygs/edit?usp=sharing) of Java API elements considered
 3. [Code](https://github.com/CESEL/CodeEntropyReplication/tree/master/SourceCode/MeasureEntropy) to calculate entropy
 
 ### RQ4, Code Graphs: how repetitive and predictable are graph representations of Java code? 
