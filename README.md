@@ -24,6 +24,5 @@
 1. [List of tokens]() to ensure that n-grams and graphs contain the same set of elements (ie control flow, Java API).
 2. [Frequency distribution]() of Java graphs with nodes n = 2 to 4
 3. [Frequency distribution]() of Java tokens that are included in graphs with n-grams with n = 2 to 4
-4. [Frquency distribution]() of graphs with nodes = 2 to 4
-5. [Graph database]() is available, but tools to extract graphs must be be obtained from [Dr. Tien Nguyen](http://www.utdallas.edu/~tien.n.nguyen/index.html)
+4. [Graph database]() is available, but tools to extract graphs must be be obtained from [Dr. Tien Nguyen](http://www.utdallas.edu/~tien.n.nguyen/index.html)
 5. [Code](https://github.com/CESEL/CodeEntropyReplication/tree/master/JavaEntropy) to calculate occurence frequency for graphs
