@@ -29,7 +29,7 @@ Data file should be formatted as one of the following formats:
 
 - Format 3: Just keep the Count column. The script will calculate the relative frequencies.
 
-| Relative Frequency |
+| Count |
 | ------------- |
-| 86
-| 7
+| 1236
+| 135
